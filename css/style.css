@@ -415,6 +415,45 @@
   align-items: center;
   gap: 5%;
 }
+.mainsignUp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+}
+.innerSignUp{
+  border: 1px solid black;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  /* gap: 10px; */
+  /* width: 0px; */
+}
+.userAndLast{
+  height: 30px;
+  width: 150px;
+}
+.inputFour{
+  height: 30px;
+  width: 200px;
+}
+.sub{
+  /* height: 30px; */
+  width: 100px;
+}
+.imageSecThree{
+  height: 200px;
+  width: 500px;
+}
 
 
 

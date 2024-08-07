@@ -13,7 +13,7 @@ const handleSignpost = (e) => {
     }
     localStorage.setItem("signUpData", JSON.stringify(user));
     localStorage.setItem("isSignUP", true);
-    window.location.href = "/Boat/index.html";
+    window.location.href = "/index.html";
 }
 
 document.getElementById("form").addEventListener("submit", handleSignpost)

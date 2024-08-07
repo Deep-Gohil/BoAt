@@ -18,12 +18,12 @@ const handleLogin = (e) => {
         else {
             alert("Login Successful")
             localStorage.setItem("isLoggedIn", true)
-            window.location.href = "/Boat/index.html"
+            window.location.href = "/index.html"
         }
     }
     else{
         alert("Please Sign Up First")
-        window.location.href = "/Boat/pages/signUP.html";
+        window.location.href = "/pages/signUP.html";
     }
 }
 
